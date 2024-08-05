@@ -1,12 +1,23 @@
 import React from 'react'
-import './style.css'
+//import { Header,Content,Footer } from './func-components'
+import Calendar from './class-components'
 
-function App(){
+export default function App(){
   return(
     <>
-    <h2>DeveloperThai</h2>
-    <div className='title'>React & React Native</div>
+      <p><center><Calendar/></center></p>
     </>
   )
 }
-export default App;
+
+//import './style.css'
+
+//function App(){
+ // return(
+    //<>
+   // <h2>DeveloperThai</h2>
+    //<div className='title'>React & React Native</div>
+   // </>
+ // )
+//}
+//export default App;
