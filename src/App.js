@@ -1,11 +1,16 @@
 import React from 'react'
 //import { Header,Content,Footer } from './func-components'
-import Calendar from './class-components'
+import Calendar, { Content, Footer, Header } from './class-components'
 
 export default function App(){
   return(
     <>
-      <p><center><Calendar/></center></p>
+    
+    <Header/>
+    <p><center><Calendar/></center></p>
+    <Content/>
+    <Footer/>
+      
     </>
   )
 }
